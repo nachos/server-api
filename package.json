@@ -1,0 +1,29 @@
+{
+  "name": "nachos-server-api",
+  "version": "1.0.0",
+  "description": "The official nachos server side api",
+  "main": "lib\\index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nachos/server-api.git"
+  },
+  "keywords": [
+    "nachos",
+    "api",
+    "server"
+  ],
+  "author": "Nachos team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nachos/server-api/issues"
+  },
+  "homepage": "https://github.com/nachos/server-api",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-jshint": "^1.11.0",
+    "jshint-stylish": "^2.0.0"
+  }
+}
