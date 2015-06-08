@@ -25,5 +25,8 @@
     "gulp": "^3.8.11",
     "gulp-jshint": "^1.11.0",
     "jshint-stylish": "^2.0.0"
+  },
+  "dependencies": {
+    "url-join": "0.0.1"
   }
 }
