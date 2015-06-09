@@ -27,6 +27,7 @@
     "jshint-stylish": "^2.0.0"
   },
   "dependencies": {
+    "request": "^2.57.0",
     "url-join": "0.0.1"
   }
 }
