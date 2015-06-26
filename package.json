@@ -4,8 +4,13 @@
   "description": "The official nachos server side api",
   "main": "lib\\index.js",
   "scripts": {
-    "test": "gulp test"
+    "lint": "gulp lint",
+    "test": "gulp test",
+    "coveralls": "gulp coveralls"
   },
+  "pre-commit": [
+    "lint"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/nachos/server-api.git"
@@ -26,6 +31,7 @@
     "url-join": "0.0.1"
   },
   "devDependencies": {
+    "git-validate": "^2.0.2",
     "gulp": "^3.9.0",
     "gulp-bump": "^0.3.1",
     "gulp-coveralls": "^0.1.4",
