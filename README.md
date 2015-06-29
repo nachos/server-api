@@ -19,7 +19,7 @@ Nachos server side api
         <a href="https://travis-ci.org/nachos/server-api"><img src="https://img.shields.io/travis/nachos/server-api.svg?style=flat-square"></a>
       </td>
       <td align="center">
-        <a href="https://ci.appveyor.com/project/noamokman/server-api"><img src="https://img.shields.io/appveyor/ci/nachos/server-api.svg?style=flat-square"></a>
+        <a href="https://ci.appveyor.com/project/nachos/server-api"><img src="https://img.shields.io/appveyor/ci/nachos/server-api.svg?style=flat-square"></a>
       </td>
       <td align="center">
 <a href='https://coveralls.io/r/nachos/server-api'><img src='https://img.shields.io/coveralls/nachos/server-api.svg?style=flat-square' alt='Coverage Status' /></a>
