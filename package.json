@@ -27,20 +27,23 @@
   },
   "homepage": "https://github.com/nachos/server-api",
   "dependencies": {
-    "request": "^2.57.0",
+    "debug": "^2.2.0",
+    "q": "^1.4.1",
+    "request": "^2.60.0",
     "url-join": "0.0.1"
   },
   "devDependencies": {
-    "git-validate": "^2.0.2",
+    "chai": "^3.2.0",
+    "git-validate": "^2.0.3",
     "gulp": "^3.9.0",
     "gulp-bump": "^0.3.1",
     "gulp-coveralls": "^0.1.4",
     "gulp-istanbul": "^0.10.0",
     "gulp-jscs": "^1.6.0",
-    "gulp-jshint": "^1.11.0",
-    "gulp-mocha": "^2.1.2",
+    "gulp-jshint": "^1.11.2",
+    "gulp-mocha": "^2.1.3",
     "jshint-stylish": "^2.0.1",
-    "lazypipe": "^0.2.4",
-    "run-sequence": "^1.1.1"
+    "lazypipe": "^1.0.1",
+    "run-sequence": "^1.1.2"
   }
 }
