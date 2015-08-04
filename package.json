@@ -27,7 +27,9 @@
   },
   "homepage": "https://github.com/nachos/server-api",
   "dependencies": {
+    "api-tailor": "^1.0.1",
     "debug": "^2.2.0",
+    "nachos-config": "^1.0.0",
     "q": "^1.4.1",
     "url-join": "0.0.1"
   },
