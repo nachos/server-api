@@ -42,10 +42,50 @@ Nachos server side api
   $ [sudo] npm install server-api --save
 ```
 
-## Examples
+## Usage
+### Initialize
 ``` js
-var serverApi = require('server-api');
+var server = require('server-api');
+var client = server();
 ```
+
+### Connecting
+Connect to the server with email and password
+``` js
+client.connect({email:'nacho@nachos.io', password:'hola'})
+  .then(function(token) {
+    // token generated to authenticate - cached in memmory
+  });
+```
+
+### Connected
+Check if a token is cached
+``` js
+client.connected() // true or false
+```
+
+### Set token
+Save a given token in cache
+``` js
+client.setToken('token');
+```
+
+### API
+The package reflects all the api from the [nachos server](https://github.com/nachos/server)
+#### Examples
+``` js
+client.users.me()
+  .then(function(me) {
+    // me - user data
+  });
+  
+client.packages.all()
+  .then(function(packages) {
+    // packages - list of all packages
+  });
+```
+
+Full documentation can be found [here](https://github.com/nachos/server/tree/master/server/api)
 
 ## Run Tests
 ``` bash
