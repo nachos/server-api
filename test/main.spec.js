@@ -76,7 +76,10 @@ describe('server-api', function () {
       });
 
       it('should be resolved with token', function () {
-        return expect(client.connect({email: 'test', password: 'test'})).to.eventually.equal('test');
+        return expect(client.connect({
+          email: 'test',
+          password: 'test'
+        })).to.eventually.equal('test');
       });
     });
   });
@@ -115,7 +118,10 @@ describe('server-api', function () {
     });
 
     it('should be true after connect', function () {
-      return client.connect({email: 'test', password: 'test'})
+      return client.connect({
+        email: 'test',
+        password: 'test'
+      })
         .then(function () {
           expect(client.connected()).to.be.true;
         });
